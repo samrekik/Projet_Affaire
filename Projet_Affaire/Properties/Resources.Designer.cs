@@ -61,11 +61,39 @@ namespace Projet_Affaire.Properties {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à pas de données.
+        /// </summary>
+        internal static string EmptyMessageCaption {
+            get {
+                return ResourceManager.GetString("EmptyMessageCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Zone de texte vide ,vous n&apos;avez pas valider.
+        /// </summary>
+        internal static string EmptyMessageText {
+            get {
+                return ResourceManager.GetString("EmptyMessageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap icons8_about_32px {
             get {
                 object obj = ResourceManager.GetObject("icons8_about_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_add_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_add_32px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +131,49 @@ namespace Projet_Affaire.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_Close_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_Close_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_close_window_32px {
             get {
                 object obj = ResourceManager.GetObject("icons8_close_window_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_Delete_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_Delete_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_edit_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_edit_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_export_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_export_32px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +204,26 @@ namespace Projet_Affaire.Properties {
         internal static System.Drawing.Bitmap icons8_project_management_32px {
             get {
                 object obj = ResourceManager.GetObject("icons8_project_management_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_save_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_save_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_search_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_search_32px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
